@@ -138,8 +138,8 @@ Chi tiết yêu cầu, hướng dẫn thực hiện và tiêu chí hoàn thành 
 | *Trần Bá Thục* | *Task 2 – Decomposition* |
 | *Trần Bá Thục* | *Task 3 – Kiểm định mùa vụ* |
 | *Nguyễn Quốc Bảo* | *Task 4 – ARIMA & SARIMA* |
-| *Lê Hoàng Nhân* | *Task 5 – Kết luận & Báo cáo* |
-
+| *Lê Hoàng Nhân* | *Task 5 – Kết luận & Đề xuất* |
+| *Nguyễn Thị Trân Châu* | *Task 6 – Làm slide* |
 ---
 
 <p align="center"><i>Trường Đại học Tài chính - Marketing</i></p>
