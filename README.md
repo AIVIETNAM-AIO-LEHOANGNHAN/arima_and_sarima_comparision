@@ -1,8 +1,6 @@
 # So sánh hiệu quả dự báo doanh thu bán lẻ giữa ARIMA và SARIMA
 
-> Đồ án môn Phân tích Chuỗi thời gian — Trường Đại học Tài chính - Marketing
-
-So sánh khả năng dự báo doanh số bán lẻ ngắn hạn giữa mô hình **ARIMA** và **SARIMA**, sử dụng dữ liệu thật từ **Corporación Favorita** (Kaggle – *Store Sales: Time Series Forecasting*). Mô hình tốt nhất được kiểm định bằng kiểm định thống kê chính thức, không chỉ so sánh điểm số thô.
+So sánh khả năng dự báo doanh số bán lẻ ngắn hạn giữa mô hình **ARIMA** và **SARIMA**, sử dụng dữ liệu thật từ **Corporación Favorita** (Kaggle – *Store Sales: Time Series Forecasting*). Mô hình tốt nhất được kiểm định bằng kiểm định thống kê chính thức.
 
 ---
 
@@ -33,6 +31,7 @@ Dự án sử dụng dữ liệu doanh số bán hàng thật của **Corporaci�
 **RQ2 (Tính khả dụng):** Mô hình tốt nhất có cải thiện đáng kể so với mô hình Baseline (Seasonal Naive) hay không, đủ để coi là có giá trị ứng dụng thực tế?
 
 **H1:** SARIMA cho RMSLE thấp hơn có ý nghĩa so với ARIMA thuần, do dữ liệu đã xác nhận có tính mùa vụ.
+
 **H2:** Cả ARIMA và SARIMA đều vượt trội hơn Baseline.
 
 ## 🗂 Dữ liệu
@@ -40,7 +39,7 @@ Dự án sử dụng dữ liệu doanh số bán hàng thật của **Corporaci�
 | Thuộc tính | Thông tin |
 |---|---|
 | Nguồn | [Kaggle – Store Sales: Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting) |
-| Dữ liệu gốc | 3.000.888 quan sát, 52 cửa hàng, 1/1/2013 – 15/8/2017 |
+| Dữ liệu gốc | 3.000.888 quan sát, 54 cửa hàng, 1/1/2013 – 15/8/2017 |
 | Dữ liệu nghiên cứu | 1 cửa hàng (Store 1), tổng hợp theo ngày → 1.688 quan sát |
 | Train | 2013-01-01 → 2016-12-31 |
 | Test | 2017-01-01 → 2017-08-15 |
