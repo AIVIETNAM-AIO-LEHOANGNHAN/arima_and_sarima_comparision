@@ -55,7 +55,7 @@ Task 4: ARIMA & SARIMA      →  Xây, chẩn đoán (Ljung-Box), dự báo, tí
 Task 5: Kết luận            →  Trả lời RQ1/RQ2, kiểm định Diebold-Mariano, viết báo cáo
 ```
 
-Mỗi Task là một mắt xích — Task sau luôn sử dụng dữ liệu/kết quả đã được Task trước xử lý và lưu lại, không tự làm lại từ đầu. Chi tiết mô tả từng Task xem tại [`docs/PROJECT_DESCRIPTION.md`](docs/PROJECT_DESCRIPTION.md).
+Mỗi Task là một mắt xích — Task sau luôn sử dụng dữ liệu/kết quả đã được Task trước xử lý và lưu lại
 
 **Nguyên tắc bắt buộc:** mọi bước phân tích, kiểm định, xác định tham số (Task 2, 3, và fit model ở Task 4) **chỉ được thực hiện trên tập Train**. Tập Test (2017) chỉ được dùng duy nhất ở bước dự báo và đánh giá cuối cùng, nhằm tránh rò rỉ dữ liệu (data leakage).
 
@@ -134,11 +134,11 @@ Chi tiết yêu cầu, hướng dẫn thực hiện và tiêu chí hoàn thành 
 
 | Họ tên | Vai trò |
 |---|---|
-| *Cập nhật* | *Task 1 – Baseline* |
-| *Cập nhật* | *Task 2 – Decomposition* |
-| *Cập nhật* | *Task 3 – Kiểm định mùa vụ* |
-| *Cập nhật* | *Task 4 – ARIMA & SARIMA* |
-| *Cập nhật* | *Task 5 – Kết luận & Báo cáo* |
+| *Nguyễn Quốc Bảo* | *Task 1 – Baseline* |
+| *Trần Bá Thục* | *Task 2 – Decomposition* |
+| *Trần Bá Thục* | *Task 3 – Kiểm định mùa vụ* |
+| *Nguyễn Quốc Bảo* | *Task 4 – ARIMA & SARIMA* |
+| *Lê Hoàng Nhân* | *Task 5 – Kết luận & Báo cáo* |
 
 ---
 
